@@ -7,6 +7,7 @@
     background-image: url('../images/header.png');
     padding: 175px 307px;
     background-repeat: no-repeat;
+    background-size: cover;
     background-color: darkgray;
     background-blend-mode: multiply;
 
@@ -142,7 +143,7 @@ hr {
     margin-top: 130px;
     margin-left: 200px;
     margin-right: 200px;
-    
+
 }
 
 .donate-plan-container {
@@ -156,7 +157,7 @@ hr {
 }
 
 .plan.one {
-    
+
     background: #4F9DA61A;
 }
 
@@ -184,37 +185,109 @@ hr {
     font-weight: 400;
 }
 
-.donation-section{
+.donation-section {
     margin: 110px 230px 150px 150px;
 }
 
-.donation-container,.survive-container{
+.donation-container,
+.survive-container {
     display: flex;
     align-items: center;
     gap: 94px;
 }
 
-.section-title.donation,.section-title.survive{
+.section-title.donation,
+.section-title.survive {
     text-align: left;
 }
-.section-description.donation,.section-description.survive{
+
+.section-description.donation,
+.section-description.survive {
     text-align: left;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.donation-container img,.survive-container img{
+.donation-container img,
+.survive-container img {
     border-radius: 5px;
 }
 
-.survive-section{
-    margin-right: 250px ;
-    margin-left: 130px ;
-    margin-bottom: 150px ;
+.survive-section {
+    margin-right: 250px;
+    margin-left: 130px;
+    margin-bottom: 150px;
 }
 
 
+.update-section {
+    margin-right: 315px;
+    margin-left: 315px;
+    margin-bottom: 130px;
+}
+
+.form-background {
+    background: #FFF4D6;
+    padding: 76px 188px 76px 140px;
+    display: flex;
+    gap: 0;
+}
+
+.mail,
+.subscribe {
+    border: 0;
+}
 
 
+.mail {
+    border-radius: 5px 0px 0px 5px;
+    background: #D9D9D9;
+    width: 275px;
+    height: 48px;
+    color: #AA9F9F;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 218px 14px 17px; 
 
 
+}
+
+.subscribe {
+
+    color: #FFF;
+    padding: 14px 42px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 0px 5px 5px 0px;
+    background: #FF5959;
+    width: 157px;
+    height: 48px;
+
+
+}
+
+footer{
+padding: 43px 500px 42px 500px;
+background:  #0B0D17;
+
+}
+
+.humble {
+    text-align: center;
+    color: #FF5959;
+    font-family: Lobster;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+}
+
+.do-it {
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
