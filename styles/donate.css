@@ -5,13 +5,18 @@
 
 .header {
     background-image: url('../images/header.png');
-    padding: 175px 307px;
+
     background-repeat: no-repeat;
     background-size: cover;
     background-color: darkgray;
     background-blend-mode: multiply;
 
 
+}
+
+.banner{
+    padding: 175px 307px;
+      
 }
 
 
@@ -33,6 +38,8 @@
     line-height: 28px;
     margin-top: 20px;
     margin-bottom: 30px;
+    margin-right: 68px;
+    margin-left: 67px;
 
 
 }
@@ -45,7 +52,7 @@
 
     border-radius: 5px;
     background: #FF5959;
-    padding: 16px 12px;
+    padding: 16px 22px;
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
@@ -76,6 +83,7 @@
     line-height: 28px;
     margin-top: 20px;
     margin-bottom: 50px;
+    
 }
 
 .donate-today-info {
@@ -132,11 +140,13 @@ div li {
 
 
 
-hr {
-    color: #DADADA;
+.hr {
     margin-top: 9px;
     margin-bottom: 30px;
     width: 765px;
+
+ 
+    
 }
 
 .donate-plan {
@@ -230,6 +240,8 @@ hr {
     background: #FFF4D6;
     padding: 76px 188px 76px 140px;
     display: flex;
+    /* align-items: center;
+    justify-content: center; */
     gap: 0;
 }
 
